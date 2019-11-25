@@ -9,15 +9,15 @@ Install
 Pip
 ---
 
-* Selenium
+*Selenium*
 
 > pip install selenium
 
-* Needle
+*Needle*
 
 > pip install needle
 
-* Nose
+*Nose*
 
 > pip install nose
 
