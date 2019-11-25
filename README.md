@@ -1,24 +1,33 @@
-#Instalando o Node
-https://docs.npmjs.com/getting-started/installing-node
-linux: sudo apt-get install nodejs
+Versions
+========
+Python Version - Python 3.7.0
+Pip Version - pip 19.3.1 
 
-#Instalando NPM
-linux: sudo apt-get install npm
+Install
+=======
+Pip
+---
+$ pip install selenium
+$ pip install needle
+$ pip install nose
 
-#Instalando o Bower
-http://bower.io/
-sudo npm install -g bower
+PerceptualDiff
+--------------
+Download the latest version of PerceptualDiff. Include the PerceptualDiff folder in your PATH environment variable.
+https://sourceforge.net/projects/pdiff/files/
 
-#Instalando o PhantomJS
-http://phantomjs.org/download.html
+Running
+=======
+Create baseline:
+nosetests testing/example01.py --with-save-baseline
 
-#Instalando o CasperJS
-http://docs.casperjs.org/en/latest/installation.html
-sudo npm install -g casperjs
+Run with cleanup files on success:
+nosetests testing/example01.py --with-needle-cleanup-on-success
 
-#Instalando Resemble (comparador de imagens)
-https://github.com/Huddle/Resemble.js
-npm install resemblejs
+Simple Run:
+nosetests testing/example01.py
 
-#Executando
-casperjs test features/agiletesters/home/home_top.js --verbose --log-level=debug --ignore-ssl-errors=yes --ssl-protocol=tlsv1
+Extras
+======
+Github - Python Needle
+https://github.com/python-needle/needle
