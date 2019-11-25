@@ -1,8 +1,8 @@
 Versions
 ========
 
-Python Version - Python 3.7.0
-Pip Version - pip 19.3.1 
+* *Python Version* - Python 3.7.0
+* *Pip Version* - pip 19.3.1 
 
 Install
 =======
