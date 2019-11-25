@@ -9,35 +9,43 @@ Install
 Pip
 ---
 
-* pip install selenium
-* pip install needle
-* pip install nose
+* Selenium
+
+> pip install selenium
+
+* Needle
+
+> pip install needle
+
+* Nose
+
+> pip install nose
 
 PerceptualDiff
 --------------
 
 * Download the latest version of PerceptualDiff. Include the PerceptualDiff folder in your PATH environment variable.
 
-https://sourceforge.net/projects/pdiff/files/
+> https://sourceforge.net/projects/pdiff/files/
 
 Running
 =======
 
 * Create baseline:
 
-nosetests testing/example01.py --with-save-baseline
+> nosetests testing/example01.py --with-save-baseline
 
 * Run with cleanup files on success:
 
-nosetests testing/example01.py --with-needle-cleanup-on-success
+> nosetests testing/example01.py --with-needle-cleanup-on-success
 
 * Simple Run:
 
-nosetests testing/example01.py
+> nosetests testing/example01.py
 
 Extras
 ======
 
 * Github - Python Needle
 
-https://github.com/python-needle/needle
+> https://github.com/python-needle/needle
