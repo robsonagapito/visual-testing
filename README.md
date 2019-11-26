@@ -28,6 +28,8 @@ PerceptualDiff
 
 > https://sourceforge.net/projects/pdiff/files/
 
+*Obs:For windows, you need to have FreeImage.dll to working correctly*
+
 Running
 =======
 
