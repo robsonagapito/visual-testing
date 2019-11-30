@@ -28,6 +28,14 @@ PerceptualDiff
 
 > https://sourceforge.net/projects/pdiff/files/
 
+Selenium Drivers
+----------------
+
+If your driver is not compatible with your browser, the testing automation will not be to work.
+
+* Install chromedriver compatible with your Chrome Browser
+( https://chromedriver.chromium.org/ )
+
 Running
 =======
 
