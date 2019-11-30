@@ -36,6 +36,8 @@ If your driver is not compatible with your browser, the testing automation will 
 * Install chromedriver compatible with your Chrome Browser
 ( https://chromedriver.chromium.org/ )
 
+*Obs:For windows, you need to have FreeImage.dll to working correctly*
+
 Running
 =======
 

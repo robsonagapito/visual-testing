@@ -38,4 +38,4 @@ class Example01Test(DriverNeedle):
         login.open_url()
         self.hide_element(login.button_login)
         
-        self.assert_screenshot(login.container, 'container', ts=243)
+        self.assert_screenshot(login.container, 'container', ts=1)
